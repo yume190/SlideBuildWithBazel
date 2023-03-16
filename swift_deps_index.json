@@ -1,0 +1,100 @@
+{
+  "direct_dep_identities": [
+    "codeview"
+  ],
+  "modules": [
+    {
+      "name": "CodeView",
+      "c99name": "CodeView",
+      "src_type": "swift",
+      "label": "@swiftpkg_codeview//:Sources_CodeView",
+      "package_identity": "codeview",
+      "product_memberships": [
+        "CodeView"
+      ]
+    },
+    {
+      "name": "PathKit",
+      "c99name": "PathKit",
+      "src_type": "swift",
+      "label": "@swiftpkg_pathkit//:Sources_PathKit",
+      "package_identity": "pathkit",
+      "product_memberships": [
+        "PathKit"
+      ]
+    },
+    {
+      "name": "Spectre",
+      "c99name": "Spectre",
+      "src_type": "swift",
+      "label": "@swiftpkg_spectre//:Sources_Spectre",
+      "package_identity": "spectre",
+      "product_memberships": [
+        "Spectre"
+      ]
+    },
+    {
+      "name": "SwiftTerm",
+      "c99name": "SwiftTerm",
+      "src_type": "swift",
+      "label": "@swiftpkg_swiftterm//:Sources_SwiftTerm",
+      "package_identity": "swiftterm",
+      "product_memberships": [
+        "SwiftTermFuzz",
+        "SwiftTerm"
+      ]
+    },
+    {
+      "name": "SwiftTermFuzz",
+      "c99name": "SwiftTermFuzz",
+      "src_type": "swift",
+      "label": "@swiftpkg_swiftterm//:Sources_SwiftTermFuzz",
+      "package_identity": "swiftterm",
+      "product_memberships": [
+        "SwiftTermFuzz"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "identity": "codeview",
+      "name": "CodeView",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_codeview//:Sources_CodeView"
+      ]
+    },
+    {
+      "identity": "pathkit",
+      "name": "PathKit",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_pathkit//:Sources_PathKit"
+      ]
+    },
+    {
+      "identity": "spectre",
+      "name": "Spectre",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_spectre//:Sources_Spectre"
+      ]
+    },
+    {
+      "identity": "swiftterm",
+      "name": "SwiftTerm",
+      "type": "library",
+      "target_labels": [
+        "@swiftpkg_swiftterm//:Sources_SwiftTerm"
+      ]
+    },
+    {
+      "identity": "swiftterm",
+      "name": "SwiftTermFuzz",
+      "type": "executable",
+      "target_labels": [
+        "@swiftpkg_swiftterm//:Sources_SwiftTermFuzz"
+      ]
+    }
+  ]
+}

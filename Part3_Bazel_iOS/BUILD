@@ -2,6 +2,7 @@ load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
 
 swift_library(
     name = "Part3",
+    module_name = "Part3",
     srcs = glob(["*.swift"]),
     testonly = False,
     deps = [
