@@ -1,0 +1,4 @@
+# build 
+build --deleted_packages //Slide/Resource.bundle/iOS,//Slide/Resource.bundle/iOS/Example,//Slide/Resource.bundle/iOS/ExampleTests,//Slide/Resource.bundle/iOS/ExampleUITests,//Slide/Resource.bundle/iOS/Framework1,//Slide/Resource.bundle/iOS/Framework1Tests,//Slide/Resource.bundle/iOS/Framework2,//Slide/Resource.bundle/iOS/Framework2Tests,//Slide/Resource.bundle/iOS/Framework3,//Slide/Resource.bundle/iOS/Framework3Tests,//Slide/Resource.bundle/iOS/Static,//Slide/Resource.bundle/iOS/Static2
+build --macos_cpus x86_64,arm64
+build -c opt
